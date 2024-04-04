@@ -218,10 +218,11 @@ public class SafeInput {
                 //Check if Yes or No
                 switch (trash) {
                     case "y":
+                        y = true;
                         done = true;
                         break;
                     case "n":
-                        y = true;
+
                         done = true;
                         break;
                     default:

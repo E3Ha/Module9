@@ -22,5 +22,13 @@ public class NoteAssignment {
 
         }
 
+        do {
+            int locus = SafeInput.getRangedInt(scan, "Locus: ", 0, 99);
+            System.out.println();
+            System.out.println("Value at " + locus + " is " + myArray[locus]);
+        }
+        while (SafeInput.getYNConfirm(scan, "Continue?"));
+
+
     }
 }
