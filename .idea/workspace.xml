@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbba6d0c-75fc-4a45-8d01-182349efcf82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabTaskArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabTaskLinearScan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice1">
+  <component name="RunManager" selected="Application.LabTaskLinearScan">
+    <configuration name="LabTaskArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabTaskArrays" />
+      <module name="Module9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabTaskLinearScan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabTaskLinearScan" />
+      <module name="Module9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NoteAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NoteAssignment" />
       <module name="Module9" />
@@ -66,6 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LabTaskLinearScan" />
+        <item itemvalue="Application.LabTaskArrays" />
         <item itemvalue="Application.Practice1" />
         <item itemvalue="Application.Practice2" />
         <item itemvalue="Application.NoteAssignment" />
@@ -95,12 +111,20 @@
       <option name="project" value="LOCAL" />
       <updated>1712252219426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4/4/2024 2:02">
+      <created>1712253737199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712253737200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4/3/2024 2:05" />
     <MESSAGE value="4/4/2024 1:36" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/4/2024 1:36" />
+    <MESSAGE value="4/4/2024 2:02" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/4/2024 2:02" />
   </component>
 </project>
