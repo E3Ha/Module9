@@ -11,7 +11,11 @@ public class LabTaskLinearScan {
         double average = 0;
         int count = 0;
         int userSearch = 0;
-        int locus = 0;
+        int locus = -1;
+        int min = 0;
+        int minlocus = 0;
+        int max = 0;
+        int maxlocus = 0;
 
         //1b - fills array with random values 1-100
         for (int i = 0; i < dataPoints.length; i++){
@@ -46,16 +50,49 @@ public class LabTaskLinearScan {
                 break;
             }
         }
-        //if (locus >= 0) {
+        //2c - Determine if value exists in Array && output to user
+        if (locus >= 0) {
             System.out.println(userSearch + " found at Array Position " + locus);
-        //}
-        //else {
-        //    System.out.println(userSearch + " not found in Array.");
-        //}
+        }
+        else{
+            System.out.println("Value " + userSearch + " not found in Array.");
+        }
+        System.out.println();
 
+        //2d - Linear Scan for min/max values
+        min = dataPoints[0];
+        max = dataPoints[0];
+        for (int i = 0; i < dataPoints.length; i++){
+            if (dataPoints[i] > max){
+                max = dataPoints[i];
+                maxlocus = i;
+            }
+            if (dataPoints[i] < min){
+                min = dataPoints[i];
+                minlocus = i;
+            }
+        }
+        System.out.println("Min: " + min + ", found at locus: " + minlocus);
+        System.out.println("Max: " + max + ", found at locus: " + maxlocus);
+        System.out.println();
 
+        //2e - call method getAverage
+        System.out.println("Average of Array: " + getArrayAverage(dataPoints));
 
     }
+    //2e - method for getting average of an array with double values
+
+    public static double getArrayAverage(int values[]){
+        double average = 0;
+        double sum = 0;
+        for (int i = 0; i < values.length; i++){
+            sum = sum + values[i];
+        }
+        average = sum / values.length;
+
+        return average;
+    }
+
 }
 
 

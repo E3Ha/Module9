@@ -24,7 +24,7 @@ public class Practice1 {
         System.out.println();
 
         min = myArray[0];
-        //Linear Scan
+        //Linear Scan for minimum value
         for (int i = 0; i < myArray.length; i++){
             if (myArray[i] < min){
                 min = myArray[i];
