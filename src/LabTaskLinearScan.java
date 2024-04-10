@@ -78,6 +78,27 @@ public class LabTaskLinearScan {
 
         //2e - call method getAverage
         System.out.println("Average of Array: " + getArrayAverage(dataPoints));
+        System.out.println();
+
+        //Testing Methods
+        /*
+        int min1 = ArrayMethods.getMin(dataPoints);
+        System.out.println("Min: " + min1);
+        int max1 = ArrayMethods.getMax(dataPoints);
+        System.out.println("Max: " + max1);
+        int occurrence = ArrayMethods.occurrenceScan(dataPoints, 5);
+        System.out.println("Occurrence: " + occurrence);
+        int sum1 = ArrayMethods.intSum(dataPoints);
+        System.out.println("Sum: " + sum1);
+        boolean contains = false;
+        contains = ArrayMethods.contains(dataPoints, 5);
+        if (!contains) {
+            System.out.println("Contains = false");
+        }
+        else {
+            System.out.println("Contains = true");
+        }
+         */
 
     }
     //2e - method for getting average of an array with double values
