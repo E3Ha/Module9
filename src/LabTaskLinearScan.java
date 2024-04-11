@@ -80,7 +80,7 @@ public class LabTaskLinearScan {
         System.out.println("Average of Array: " + getArrayAverage(dataPoints));
         System.out.println();
 
-        //Testing Methods
+        //3 - Testing ArrayMethods
         /*
         int min1 = ArrayMethods.getMin(dataPoints);
         System.out.println("Min: " + min1);
@@ -99,6 +99,7 @@ public class LabTaskLinearScan {
             System.out.println("Contains = true");
         }
          */
+
 
     }
     //2e - method for getting average of an array with double values

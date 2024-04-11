@@ -2,6 +2,7 @@ import java.util.*;
 
 public class ArrayMethods {
 
+    //Array Method returning min value in array
     public static int getMin(int values[]){
         int min = 0;
 
@@ -15,6 +16,7 @@ public class ArrayMethods {
         return min;
     }
 
+    //Array Method returning max value in array
     public static int getMax(int values[]){
         int max = 0;
 
@@ -27,7 +29,7 @@ public class ArrayMethods {
         }
         return max;
     }
-
+    //Array Method returning number of times target is found in array
     public static int occurrenceScan(int values[], int target){
         int count = 0;
         //Loop for Array Length && add to count if target is found
@@ -38,16 +40,17 @@ public class ArrayMethods {
         }
         return count;
     }
-
+    //Array Method returning sum of array elements
     public static int intSum(int values[]){
         int sum = 0;
+        //iterate through array && add value to sum
         for (int i = 0; i < values.length; i++){
             sum = sum + values[i];
         }
         return sum;
     }
 
-    //Having issues returning statements
+    //Array Method returning true if array contains target
     public static boolean contains(int values[], int target){
         int sentinel = -1;
         //Search for occurrence
